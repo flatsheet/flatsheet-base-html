@@ -1,0 +1,36 @@
+{
+  "name": "flatsheet-base-html",
+  "version": "1.0.0",
+  "description": "base html for flatsheet",
+  "main": "index.js",
+  "scripts": {
+    "test-browser": "zuul tests/index.js --local --ui tape",
+    "test": "node tests/*.js | tap-spec"
+  },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
+  "dependencies": {
+    "vdom-to-html": "^2.1.1",
+    "virtual-dom": "^2.0.1"
+  },
+  "devDependencies": {
+    "brfs": "^1.4.0",
+    "browserify": "^10.2.6",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.0",
+    "zuul": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flatsheet/flatsheet-base-html.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flatsheet/flatsheet-base-html/issues"
+  },
+  "homepage": "https://github.com/flatsheet/flatsheet-base-html#readme"
+}

@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/Users/sethvincent/.nvm/versions/node/v0.12.6/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'test-browser' ]
+2 info using npm@3.1.0
+3 info using node@v0.12.6
+4 verbose run-script [ 'pretest-browser', 'test-browser', 'posttest-browser' ]
+5 info pretest-browser flatsheet-base-html@1.0.0
+6 info test-browser flatsheet-base-html@1.0.0
+7 verbose unsafe-perm in lifecycle true
+8 info flatsheet-base-html@1.0.0 Failed to exec test-browser script
+9 verbose stack Error: flatsheet-base-html@1.0.0 test-browser: `zuul tests/index.js --local`
+9 verbose stack Exit status 1
+9 verbose stack     at EventEmitter.<anonymous> (/Users/sethvincent/.nvm/versions/node/v0.12.6/lib/node_modules/npm/lib/utils/lifecycle.js:222:16)
+9 verbose stack     at EventEmitter.emit (events.js:110:17)
+9 verbose stack     at ChildProcess.<anonymous> (/Users/sethvincent/.nvm/versions/node/v0.12.6/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+9 verbose stack     at ChildProcess.emit (events.js:110:17)
+9 verbose stack     at maybeClose (child_process.js:1015:16)
+9 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+10 verbose pkgid flatsheet-base-html@1.0.0
+11 verbose cwd /Users/sethvincent/workspace/flatsheet/base-html
+12 error Darwin 14.0.0
+13 error argv "node" "/Users/sethvincent/.nvm/versions/node/v0.12.6/bin/npm" "run" "test-browser"
+14 error node v0.12.6
+15 error npm  v3.1.0
+16 error code ELIFECYCLE
+17 error flatsheet-base-html@1.0.0 test-browser: `zuul tests/index.js --local`
+17 error Exit status 1
+18 error Failed at the flatsheet-base-html@1.0.0 test-browser script 'zuul tests/index.js --local'.
+18 error This is most likely a problem with the flatsheet-base-html package,
+18 error not with npm itself.
+18 error Tell the author that this fails on your system:
+18 error     zuul tests/index.js --local
+18 error You can get their info via:
+18 error     npm owner ls flatsheet-base-html
+18 error There is likely additional logging output above.
+19 verbose exit [ 1, true ]
